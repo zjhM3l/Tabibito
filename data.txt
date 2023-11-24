@@ -1,0 +1,10 @@
+旅游产品
+Prodect
+名字name 简介description 地址location（1。 文字地址raw_loc 2。谷歌地图的地理位置google_loc）折扣discount 原价ori_price （4个标签名字：标签值 ）tags(dic)[key， value, icon] 多个图集 pics:[]
+开始时间 start_time 结束时间end_time 预定截止时间app_ddl 费用说明 fee_des (dic)（名称key：说明value） 评分mark  dic （服务 service 性价比cost_effective 风景scenery）
+
+Trip
+旅游行程 时间time 具体地点loc_detail 活动activity
+
+Comment
+评论： 用户名user_name 头像 profile_pic 日期datetime 评分mark {service, cost_effective, scenery} （3个） 图片pic（可以没有） 描述des 点赞数like_num
